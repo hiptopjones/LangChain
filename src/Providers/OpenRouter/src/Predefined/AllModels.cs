@@ -190,6 +190,11 @@ public class NousHermes2Mistral7BDpoModel(OpenRouterProvider provider) : OpenRou
 public class MetaLlama370BInstructModel(OpenRouterProvider provider) : OpenRouterModel(provider, OpenRouterModelIds.MetaLlama370BInstruct);
 
 
+/// <inheritdoc cref="OpenRouterModelIds.SnowflakeArcticInstruct"/>
+/// <param name="provider">Open Router Provider Instance</param>
+public class SnowflakeArcticInstructModel(OpenRouterProvider provider) : OpenRouterModel(provider, OpenRouterModelIds.SnowflakeArcticInstruct);
+
+
 /// <inheritdoc cref="OpenRouterModelIds.Mixtral8X7BInstructNitro"/>
 /// <param name="provider">Open Router Provider Instance</param>
 public class Mixtral8X7BInstructNitroModel(OpenRouterProvider provider) : OpenRouterModel(provider, OpenRouterModelIds.Mixtral8X7BInstructNitro);
@@ -198,11 +203,6 @@ public class Mixtral8X7BInstructNitroModel(OpenRouterProvider provider) : OpenRo
 /// <inheritdoc cref="OpenRouterModelIds.MistralOpenOrca7B"/>
 /// <param name="provider">Open Router Provider Instance</param>
 public class MistralOpenOrca7BModel(OpenRouterProvider provider) : OpenRouterModel(provider, OpenRouterModelIds.MistralOpenOrca7B);
-
-
-/// <inheritdoc cref="OpenRouterModelIds.HuggingFaceZephyr7B"/>
-/// <param name="provider">Open Router Provider Instance</param>
-public class HuggingFaceZephyr7BModel(OpenRouterProvider provider) : OpenRouterModel(provider, OpenRouterModelIds.HuggingFaceZephyr7B);
 
 
 /// <inheritdoc cref="OpenRouterModelIds.OpenAiGpt35Turbo"/>
@@ -498,11 +498,6 @@ public class GoogleGemma7BModel(OpenRouterProvider provider) : OpenRouterModel(p
 /// <inheritdoc cref="OpenRouterModelIds.DatabricksDbrx132BInstruct"/>
 /// <param name="provider">Open Router Provider Instance</param>
 public class DatabricksDbrx132BInstructModel(OpenRouterProvider provider) : OpenRouterModel(provider, OpenRouterModelIds.DatabricksDbrx132BInstruct);
-
-
-/// <inheritdoc cref="OpenRouterModelIds.Zephyr141BA35b"/>
-/// <param name="provider">Open Router Provider Instance</param>
-public class Zephyr141BA35bModel(OpenRouterProvider provider) : OpenRouterModel(provider, OpenRouterModelIds.Zephyr141BA35b);
 
 
 /// <inheritdoc cref="OpenRouterModelIds.MetaLlama38BInstruct"/>
